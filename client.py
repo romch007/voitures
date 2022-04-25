@@ -47,8 +47,6 @@ class Network:
 
 net = Network("54.36.103.5", 1883, "update")
 net.start(lambda received: print(received))
-net.send({"speed": 18})
-net.loop()
 while True:
     net.send({"connard": True})
     net.loop()
