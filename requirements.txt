@@ -1,0 +1,4 @@
+Flask
+pychalk
+paho-mqtt
+flask-socketio
