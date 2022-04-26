@@ -22,7 +22,8 @@ class UI:
             print(bold(client_id) + " - " + green(data))
 
     def clear(self):
-        if platform.system() == 'Windows':
-            os.system('cls')
-        else:
-            os.system('clear')
+        print(chalk.eraser())
+        # if platform.system() == 'Windows':
+        #     os.system('cls')
+        # else:
+        #     os.system('clear')
